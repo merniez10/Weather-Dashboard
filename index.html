@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/syle.css"/>
+    <title>Weather Dashboard</title>
+
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <main>
+        <form id="search-form">
+            <h2>Search for a City:</h2>
+            <input id="search-input" placeholder="Enter City.">
+            <button for="cityList" id="search-button">Search</button>
+            <ul class="search-history">
+                <!--Searched cities will be added by js-->
+            </ul>
+        </form>
+
+        <section class="weather-container">
+            <h2>Current Forecast:</h2>
+            <container id="current">
+                
+            </container>
+
+            <container class="forecast-section">
+                <h2>5-Day Forecast</h2>
+            </container>
+        </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
